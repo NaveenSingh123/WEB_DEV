@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>HTML FORM</title>
+</head>
+<body>
+    <h3>Registration Page</h3>
+    <div id="DIV">
+        <form>
+            <label for="username">UserName</label>
+            <input type="text" id="username" required> <br><br>
+
+            <label for="email">Email_Id</label>
+            <input type="email" id="email" placeholder="xyz@gmail.com" required> <br><br>
+
+            <!--Radio Button-->
+            <p>Select Your Gender</p>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male" value="Male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female" value="Female">
+            <label for="others">Others</label>
+            <input type="radio" name="gender" id="others" value="Others"><br><br>
+
+            <!--Drop Down Menu-->
+            <label for="age-group">Select Your Age</label>
+            <select name="age-group-values" id="age-group">
+                <option value="none">None</option>
+                <option value="5-10">5-10</option>
+                <option value="11-20">11-20</option>
+                <option value="21-30">21-30</option>            
+                <option value="31-40">31-40</option>
+                <option value="50+">50+</option>
+            </select><br><br>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" required><br><br>
+            <p>Comment Below</p>
+            <textarea name="" id="" cols="30" rows="10" placeholder="comments"></textarea><br><br>
+            <p>Select Date</p>
+            <input type="Date"><br><br>
+            <p>Upload File</p>
+            <input type="file"><br><br>
+            <input type="submit" value="sign in"><br><br>
+        </form>
+    </div>
+</body>
+</html>
